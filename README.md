@@ -12,8 +12,8 @@ Install all packages on ubuntu. Requirements for ubuntu are in ubuntu_req.txt wh
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install nginx
-sudo apt-get install python3 etc
+sudo apt update
+sudo apt install python3-venv python3-dev libpq-dev postgresql postgresql-contrib nginx curl
 ```
 
 
@@ -21,6 +21,51 @@ to create an environment run
 ```python
 python3 -m venv environment_name
 ```
+
+### Creating the PostgreSQL Database and User
+
+Now you can jump right in and create a database and database user for our Django application.
+
+By default, Postgres uses an authentication scheme called “peer authentication” for local connections. Basically, this means that if the user’s operating system username matches a valid Postgres username, that user can login with no further authentication.
+
+During the Postgres installation, an operating system user named postgres was created to correspond to the postgres PostgreSQL administrative user. You need to use this user to perform administrative tasks. You can use sudo and pass in the username with the -u option.
+
+Log into an interactive Postgres session by typing:
+
+```
+sudo -u postgres psql
+```
+
+You will be given a PostgreSQL prompt where you can set up our requirements.
+
+First, create a database for your project:
+
+```postgresql
+CREATE DATABASE myproject;
+```
+
+```postgresql
+CREATE USER myprojectuser WITH PASSWORD 'password';
+```
+
+```postgresql
+CREATE USER myprojectuser WITH PASSWORD 'password';
+```
+
+```postgresql
+ALTER ROLE myprojectuser SET client_encoding TO 'utf8';
+ALTER ROLE myprojectuser SET default_transaction_isolation TO 'read committed';
+ALTER ROLE myprojectuser SET timezone TO 'UTC';
+```
+
+```postgresql
+GRANT ALL PRIVILEGES ON DATABASE myproject TO myprojectuser;
+```
+
+```postgresql
+\q
+```
+
 
 
 
@@ -63,6 +108,39 @@ sudo apt-get install nginx
 ```
 #### Setup nginx
 
-to setup i
+to setup nginx
+
+```bash
+
+
+```
+content of the file
 
 ### How to configure gunicorn
+
+```
+sudo nano /etc/systemd/system/gunicorn.socket
+```
+
+Content of the file above
+```
+[Unit]
+Description=gunicorn socket
+
+[Socket]
+ListenStream=/run/gunicorn.sock
+
+[Install]
+WantedBy=sockets.target
+```
+```
+sudo nano /etc/systemd/system/gunicorn.service
+```
+
+Content of the file above
+```
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+```
