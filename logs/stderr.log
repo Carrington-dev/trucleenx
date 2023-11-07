@@ -1,0 +1,656 @@
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\myauth\views.py", line 4, in home
+    return render(request, "basic/home.html")
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: basic/home.html
+"GET / HTTP/1.1" 500 83616
+Internal Server Error: /portfolio/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\myauth\views.py", line 19, in portfolio
+    return render(request, "basic/portfolio.html")
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: basic/portfolio.html
+"GET /portfolio/ HTTP/1.1" 500 84451
+Internal Server Error: /portfolio/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\myauth\views.py", line 19, in portfolio
+    return render(request, "basic/portfolio.html")
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: basic/portfolio.html
+"GET /portfolio/ HTTP/1.1" 500 84349
+Internal Server Error: /portfolio/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\myauth\views.py", line 19, in portfolio
+    return render(request, "basic/portfolio.html")
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: basic/portfolio.html
+"GET /portfolio/ HTTP/1.1" 500 84486
+Invalid HTTP_HOST header: '192.168.8.129:8000'. You may need to add '192.168.8.129' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\http\request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.129:8000'. You may need to add '192.168.8.129' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '192.168.8.129:8000'. You may need to add '192.168.8.129' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\http\request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.129:8000'. You may need to add '192.168.8.129' to ALLOWED_HOSTS.
+Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\myauth\views.py", line 16, in subscribe
+    return render(request, "basic/subscribe.html")
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: basic/subscribe.html
+"POST /subscribe/ HTTP/1.1" 500 84886
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\myauth\views.py", line 22, in contact
+    return render(request, "basic/contact.html", context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'contacts[0]'
+"GET /contact/ HTTP/1.1" 500 183790
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\contact\views.py", line 59, in contact
+    return render(request, "contact/contact.html", context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: contact/contact.html
+"GET /contact/ HTTP/1.1" 500 86431
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\contact\views.py", line 58, in contact
+    return render(request, "basic/contact.html", context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'calendar' not found. 'calendar' is not a valid view function or pattern name.
+"GET /contact/ HTTP/1.1" 500 153337
+Internal Server Error: /bookings/calendar/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 6, in book
+    return render(request, "book/book_first.html", context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: book/book_first.html
+"GET /bookings/calendar/ HTTP/1.1" 500 84621
+Internal Server Error: /bookings/calendar/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 9, in book
+    context['form2'] = OrderForm2()
+  File "D:\work\client proj\trucleen\book\forms.py", line 31, in __init__
+    self.fields['first_name'].widget.attrs.update({'placeholder': 'Enter your name'})
+KeyError: 'first_name'
+"POST /bookings/calendar/ HTTP/1.1" 500 75751
+Internal Server Error: /bookings/calendar/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: book_order.city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 13, in book
+    form.save()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\forms\models.py", line 548, in save
+    self.instance.save()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: book_order.city
+"POST /bookings/calendar/ HTTP/1.1" 500 155767
+Internal Server Error: /bookings/calendar/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: book_order.city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 13, in book
+    form.save()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\forms\models.py", line 548, in save
+    self.instance.save()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: book_order.city
+"POST /bookings/calendar/ HTTP/1.1" 500 155767
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 41, in book_second
+    order.save()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 976, in _save_table
+    updated = self._do_update(
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 1040, in _do_update
+    return filtered._update(values) > 0
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\query.py", line 1216, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\sql\compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\sql\compiler.py", line 1788, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\fields\__init__.py", line 925, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\fields\__init__.py", line 1576, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\fields\__init__.py", line 1554, in get_prep_value
+    value = super().get_prep_value(value)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\fields\__init__.py", line 1433, in get_prep_value
+    return self.to_python(value)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\fields\__init__.py", line 1536, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“Tshwane” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+"POST /bookings/book_second/ HTTP/1.1" 500 136591
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 32, in book_second
+    to_time = form.cleaned_data['to_time']
+KeyError: 'to_time'
+"POST /bookings/book_second/ HTTP/1.1" 500 73067
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 32, in book_second
+    to_time = form.cleaned_data['to_time']
+KeyError: 'to_time'
+"POST /bookings/book_second/ HTTP/1.1" 500 73067
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 32, in book_second
+    to_time = form.cleaned_data['to_time']
+KeyError: 'to_time'
+"POST /bookings/book_second/ HTTP/1.1" 500 73067
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 32, in book_second
+    to_time = form.cleaned_data['to_time']
+KeyError: 'to_time'
+"POST /bookings/book_second/ HTTP/1.1" 500 73057
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 46, in book_second
+    return render(request, "book/book_second.html", context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'autocomplete' not found. 'autocomplete' is not a valid view function or pattern name.
+"GET /bookings/book_second/ HTTP/1.1" 500 176775
+Internal Server Error: /bookings/done/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 76, in done
+    return render(request, "book/done.html", {"title":"Booking was successfully"})
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'register' not found. 'register' is not a valid view function or pattern name.
+"GET /bookings/done/ HTTP/1.1" 500 169139
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 67, in book_second
+    message = get_template('book/book_confirm.html').render(ctx)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: book/book_confirm.html
+"POST /bookings/book_second/ HTTP/1.1" 500 145
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 67, in book_second
+    message = get_template('book/book_confirm.html').render(ctx)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: book/book_confirm.html
+"POST /bookings/book_second/ HTTP/1.1" 500 81753
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 71, in book_second
+    msg.send()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\backends\smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\backends\smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+"POST /bookings/book_second/ HTTP/1.1" 500 109163
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 47, in book_second
+    print(all_other)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\query.py", line 373, in __repr__
+    return "<%s %r>" % (self.__class__.__name__, data)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\db\models\base.py", line 586, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+  File "D:\work\client proj\trucleen\book\models.py", line 21, in __str__
+    return f"{self.from_time} {self.to_time} @{self.city}"
+AttributeError: 'Order' object has no attribute 'to_time'
+"POST /bookings/book_second/ HTTP/1.1" 500 83937
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\contact\views.py", line 43, in contact
+    message = get_template('email/contact_email.html').render(ctx)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: email/contact_email.html
+"POST /contact/ HTTP/1.1" 500 81337
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 79, in book_second
+    msg.send()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\backends\smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\backends\smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 1034, in __init__
+    SMTP.__init__(self, host, port, local_hostname, timeout,
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 1040, in _get_socket
+    new_socket = super()._get_socket(host, port, timeout)
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+"POST /bookings/book_second/ HTTP/1.1" 500 128000
+Internal Server Error: /bookings/book_second/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 79, in book_second
+    msg.send()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\backends\smtp.py", line 131, in send_messages
+    sent = self._send(message)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\mail\backends\smtp.py", line 149, in _send
+    self.connection.sendmail(
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 856, in sendmail
+    self.ehlo_or_helo_if_needed()
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 604, in ehlo_or_helo_if_needed
+    if not (200 <= self.ehlo()[0] <= 299):
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 444, in ehlo
+    self.putcmd(self.ehlo_msg, name or self.local_hostname)
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 371, in putcmd
+    self.send(str)
+  File "C:\Users\Crn96\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 363, in send
+    raise SMTPServerDisconnected('please run connect() first')
+smtplib.SMTPServerDisconnected: please run connect() first
+"POST /bookings/book_second/ HTTP/1.1" 500 119599
+Internal Server Error: /bookings/calendar/
+Traceback (most recent call last):
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\client proj\trucleen\book\views.py", line 23, in book
+    id = form.save()
+  File "D:\work\client proj\trucleen\senv\lib\site-packages\django\forms\models.py", line 548, in save
+    self.instance.save()
+  File "D:\work\client proj\trucleen\book\models.py", line 26, in save
+    super.save(*args, **kargs)
+AttributeError: type object 'super' has no attribute 'save'
+"POST /bookings/calendar/ HTTP/1.1" 500 79981

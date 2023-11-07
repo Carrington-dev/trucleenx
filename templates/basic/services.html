@@ -1,0 +1,225 @@
+{% extends 'base.html' %}
+<!--  -->
+{% load static %}
+<!--  -->
+
+<!--  -->
+{% block main %}
+
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>Services</h2>
+            <ol>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li>Services</li>
+            </ol>
+        </div>
+
+    </div>
+</section>
+<!-- End Breadcrumbs -->
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services mt-3">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="icon-box">
+                    <i class="bi bi-briefcase"></i>
+                    <h4><a href="#">Maid Services</a></h4>
+                    <p>Once-off cleaning services for the house you’re leaving, or moving into. We assist in permanently placing a domestic worker in your home</p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="bi bi-window"></i>
+                    <h4><a href="#">Window Cleaning</a></h4>
+                    <p>Window and Cleaning Crew specializes in the Interior and Exterior cleaning of windows for multi storey buildings, making use of Water Fed Telescopic poles which can reach 5 storeys high.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="icon-box">
+                    <i class="bi bi-house"></i>
+                    <h4><a href="#">Carpet Cleaning
+                    </a></h4>
+                    <p>Regular cleaning not only extend the lifespan of the carpet, it also enhances air quality inside the building, ensuring healthier occupants. We only make use of environmentally Friendly chemicals. </p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="bi bi-card-checklist"></i>
+                    <h4><a href="#">Contract Cleaning</a></h4>
+                    <p>For large contracts, we supply a on-site supervisor, while for smaller contracts, a supervisor will be shared between sites. However, management always oversee all contracts and are fully up to date with all operations.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="bi bi-bar-chart"></i>
+                    <h4><a href="#">Domestic Cleaning</a></h4>
+                    <p>New service now available! {{company}}, South Africa's favourite cleaning service in for your home has now moved into your office too. If your office is in need of a good one-time cleaning after the function or weekly cleans, then
+                        look no further. We will banish dust, grime and any kind of dirt from your workplace and keep it a clean and productive office environment.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="bi bi-binoculars"></i>
+                    <h4><a href="#">Home Cleaning</a></h4>
+                    <p>
+                        Voted as South Africa’s most convenient home cleaning service, {{company}} has taken the country by storm with its innovative approach to the home cleaning industry. Allowing South Africans to book custom cleaning options and connecting them with trusted
+                        cleaners from their comfort of the own home has made us the go-to service for home cleaning
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="bi bi-brightness-high"></i>
+                    <h4><a href="#">Regular Office Cleaning</a></h4>
+                    <p>Having a professional cleaning team come in regularly without disturbing your staff is what we at {{company}} specialise in. We will make sure that your office is clean at all times.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="bi bi-calendar4-week"></i>
+                    <h4><a href="#">Once-Off Office Cleaning</a></h4>
+                    <p>Do you need a office cleaner to come in and clean the office after you had an event? Contact {{company}} Today for office cleaning.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Services Section -->
+
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Services</h2>
+            <p>Check our Services</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <ul class="nav nav-tabs flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Healthcare Cleaning
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Commercial Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Office Cleaning Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Office Park Cleaning</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Warehouse Cleaning
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-9 mt-4 mt-lg-0">
+                <div class="tab-content">
+                    <div class="tab-pane active show" id="tab-1">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>Professional Medical Cleaning Services you can Trust! </h3>
+                                <p class="fst-italic">{{company}} knows how critical it is to maintain a clean, safe and healthy environment of care for both patients and staff members. That’s why we take a thorough approach to deliver the highest standards of cleaning every
+                                    time we enter a healthcare facility. From medical offices to hospitals, we have the proper tools and expertise to provide consistent results that address your specific needs.
+                                </p>
+                                <p>
+                                    We understand that cleaning your facility to the highest standard is the best way to prevent the spread of germs, bacteria, pathogens and viruses. We take great pride in never missing a day of service, so your business can do what it does best, and leave
+                                    the cleaning to </p>
+
+                            </div>
+                            <div class="col-lg-4 text-center order-1 order-lg-2">
+                                <img src="{% static '/img/features-1.svg' %}" alt="" class="img-fluid" oncontextmenu="return false">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-2">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>Warehouse Cleaning Services
+                                </h3>
+                                <p class="fst-italic">A hygienically clean building is merely one of the advantages of contract cleaning. A tidy commercial facility reflects a positive corporate image. {{company}} is a seasoned contract cleaning business that can assist you
+                                    in maintaining a professional image and a healthy working environment.
+                                </p>
+                                <p>Our flexible contract cleaning services allow you to concentrate on building your business. We ensure that our cleaning team does not disrupt your day to day work.</p>
+                            </div>
+                            <div class="col-lg-4 text-center order-1 order-lg-2">
+                                <img src="{% static '/img/features-2.svg' %}" alt="" class="img-fluid" oncontextmenu="return false">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-3">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>Office Cleaning Services </h3>
+                                <p class="fst-italic">A clean office leaves new customers and visitors with a better impression of your company. Cleaner and sanitised office spaces protect your staff from infections and allergies. You can opt for simple office cleaning that
+                                    includes cleaning internal floors, tiles, walls, furniture, windows, kitchen and bathroom areas, washing facilities and more.
+                                </p>
+                                <p>
+                                    Our Office Cleaning Service guarantees that you can concentrate on your core business functions while we provide a hygienically clean working environment. First impressions count, and with a clean office, your existing and future clients will be left
+                                    with a good impression, and in addition, it improves employee modds.
+                                </p>
+                                <p>
+                                    Whether you’re looking for office cleaning services for small business premises or for a large office park, we’ll tailor our office cleaning services to meet your individual needs.</p>
+                            </div>
+                            <div class="col-lg-4 text-center order-1 order-lg-2">
+                                <img src="{% static '/img/features-3.svg' %}" alt="" class="img-fluid" oncontextmenu="return false">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>Office Park Cleaning Services
+                                </h3>
+                                <p class="fst-italic">You take every effort to keep your Tenants, customers, and contractors as safe and healthy as possible, why gamble with a commercial cleaning company that do not hold themselves to the same standard? {{company}} Group strives
+                                    to provide an inarguably first class, responsive cleaning service for office parks that promotes a cleaner, healthier, and safer environment for your customers, tenants, and contractors.
+                                </p>
+                                <p>{{company}} commitment to health starts with our branded tools and materials. We use only top of the line, Green Seal Certified and environmentally safe germicides, quaternary disinfectants, glass cleaners, restroom cleaners,
+                                    all-purpose cleaners, floor wax, and strippers.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 text-center order-1 order-lg-2">
+                                <img src="{% static '/img/features-4.svg' %}" alt="" class="img-fluid" oncontextmenu="return false">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-5">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>Warehouse Cleaning Services </h3>
+                                <p class="fst-italic">You take every effort to keep your Employees, contractors, and customers as safe and healthy as possible, why gamble with a commercial cleaning company that do not hold themselves to the same standard? {{ company }} Group
+                                    strives to provide an inarguably first class, responsive Warehouse cleaning service that promotes a cleaner, healthier, and safer environment for your Employees, customers, and contractors.
+                                </p>
+                                <p>{{ company }} commitment to health starts with our branded tools and materials. We use only top of the line, Green Seal Certified and environmentally safe germicides, quaternary disinfectants, glass cleaners, restroom cleaners,
+                                    all-purpose cleaners, floor wax, and strippers.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 text-center order-1 order-lg-2">
+                                <img src="{% static '/img/features-5.svg' %}" alt="" class="img-fluid" oncontextmenu="return false">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Features Section -->
+{% endblock main %}
